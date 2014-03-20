@@ -1,0 +1,21 @@
+Source: ptux-sdk-n7
+Section: devel
+Priority: extra
+Maintainer: Ryan Kuester <rkuester@insymbols.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: ptux-sdk-n7
+Architecture: all
+Description: Pragmatux SD for Nexus 7
+ This is the Pragmatux SDK metapackage for the Nexus 7. It calls for all
+ the development tools needed to develop Pragmatux operating systems for
+ the Nexus 7.
+ .
+ This package is a part of Pragmatux (http://pragmatux.org).
+Depends:
+ ptux-sdk-armhf,
+ mkos-n7,
+ android-fastboot,
+ android-adb,
+ ${misc:Depends}
