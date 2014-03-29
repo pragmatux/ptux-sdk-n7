@@ -7,8 +7,9 @@ Standards-Version: 3.9.3
 
 Package: ptux-sdk-n7
 Architecture: all
-Description: Pragmatux SD for Nexus 7
- This is the Pragmatux SDK metapackage for the Nexus 7. It calls for all
+Description: Pragmatux SDK for Nexus 7
+ This is the Pragmatux SDK metapackage for the Nexus 7, both the 2012
+ and the 2013 hardware models. It calls for all
  the development tools needed to develop Pragmatux operating systems for
  the Nexus 7.
  .
